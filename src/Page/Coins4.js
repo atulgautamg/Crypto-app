@@ -4,7 +4,6 @@ import './Coins4.css';
 import c1 from './c1.svg'
 import c2 from './c2.svg';
 import c3 from './c3.svg';
-import {Pagination} from "@material-ui/lab"
 import c4 from './c4.svg';
 import img1 from './dashboardimages/img1.svg';
 import img2 from './dashboardimages/img2.svg';
@@ -20,6 +19,7 @@ import arrow1 from './arrow2.svg';
 import arrow2 from './downarrow1.svg';
 import axios from 'axios';
 import ContextApi, { Cryptostate } from './ContextApi';
+import Pagination from '@mui/material/Pagination';
 import {Link} from 'react-router-dom';
 const Coins4 = () => {
       const [coins,setcoins]=useState([]);
@@ -132,7 +132,7 @@ const formattedUSD = new Intl.NumberFormat('en-US', {
       
       <div className='box11 box6'> 
           <div className='page1'>
-              <div className='page3'>  Page: </div> <div className='page2'> <Pagination style={{height:"40px", backgroundColor:"rgb(64, 255, 47)",  color:"red", margin:"-10px"  } }  color=''  size='large'  count={coins.length/10} onChange={(_,value)=>{setpage(value);}}></Pagination>    
+              <div className='page3'>  Page: </div> <div className='page2'> <Pagination style={{height:"40px", backgroundColor:"rgb(64, 255, 47)", margin:"-10px"  } }   size='large'  count={coins.length/10} onChange={(_,value)=>{setpage(value);}}></Pagination>    
               </div> </div></div>
    </div>
   )

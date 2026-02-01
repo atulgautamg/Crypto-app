@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { Cryptostate } from './ContextApi';
 import axios from 'axios';
 import { HistoricalChart } from './Api';
-import { CircularProgress } from '@material-ui/core';
 
 import  { PureComponent } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart,Area } from 'recharts';

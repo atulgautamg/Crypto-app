@@ -22,17 +22,10 @@ function App() {
     <div  >
    <Router>
       <Routes>
-      <Route path='/practice' element={<Practice></Practice>}  exact></Route>
-        
-        <Route  element={<Home></Home>}  exact></Route>
-        <Route path='/coins' element={<Coins></Coins>}  exact></Route>
-        <Route path='/coins/:id' element={<Coinpage></Coinpage>}> </Route>
-        <Route path='/coins/1' element={<Coinstrend></Coinstrend>}> </Route>
+       
          <Route path='/'element={<Coins4></Coins4>} ></Route>
-         <Route path='/index'element={<Index3></Index3>} ></Route>
-        <Route path='/prac' element={<Practice></Practice>}> </Route>
-         <Route path='/coins2/:id' element={<Coinspage2></Coinspage2>} ></Route> 
-         <Route path='/currency' element={<Currency></Currency>} ></Route> 
+        <Route path='/coins2/:id' element={<Coinspage2></Coinspage2>} ></Route> 
+         
          
       </Routes>
     </Router>

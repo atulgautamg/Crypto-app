@@ -3,11 +3,7 @@ import { CoinList } from './Api'
 import axios from 'axios';
 import ContextApi, { Cryptostate } from './ContextApi';
 import { Link, useNavigate } from 'react-router-dom';
-import {Pagination} from "@material-ui/lab"
-import { createTheme } from '@mui/material/styles';
-import { purple } from '@mui/material/colors';
-
-
+import Pagination from '@mui/material/Pagination';
 import "./Coins.css"
 const Coins = () => {
   const [coins,setcoins]=useState([]);
