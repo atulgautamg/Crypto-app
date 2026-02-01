@@ -130,10 +130,7 @@ const formattedUSD = new Intl.NumberFormat('en-US', {
         
          </div>
       
-      <div className='box11 box6'> 
-          <div className='page1'>
-              <div className='page3'>  Page: </div> <div className='page2'> <Pagination style={{height:"40px", backgroundColor:"rgb(64, 255, 47)", margin:"-10px"  } }   size='large'  count={coins.length/10} onChange={(_,value)=>{setpage(value);}}></Pagination>    
-              </div> </div></div>
+    
    </div>
   )
 }
