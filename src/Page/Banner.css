@@ -1,0 +1,13 @@
+.techimg{
+    color:white;
+    padding:100px;
+    display: flex;
+  flex-direction: column;
+  gap:100px;
+}
+.imgcoins{
+ display: grid;
+ 
+  height: 100px;
+    
+}

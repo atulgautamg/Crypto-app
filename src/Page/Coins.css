@@ -1,0 +1,134 @@
+.search1{
+    width:600px;
+    margin-top: 40px;
+    margin-left: 400px;
+    
+}
+.head1{
+    margin-top: -200px;
+    margin-left: 550px;
+}
+.form1{
+    height: 50px;
+}
+.search2{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.td1{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+.rowcoin{
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+}
+.rowcoin:hover{
+    background-color: #f68215 ;
+}
+.tablehead{
+    background-color:#f68215;
+    border-radius: 10px;
+}
+.tablecontent{
+    background-color: black;
+    color:white;
+}
+.rowname{
+    color:white;
+}
+.coinimg1{
+    margin-left: 50px;
+}
+.rowcoin div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+.tablecontainer{
+    position: relative;
+    left:300px;
+    top:100px;
+    width:920px;
+}
+.search2{
+    margin-left: 100px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.84);
+    color:white;
+}
+.t1{
+    width: 40px;
+}
+.t2 {
+    width:100px;
+}
+.t4{
+    width: 100px;
+    
+}
+.t5{
+    width:145px;
+    
+}
+.t6{
+    width:150px;
+}
+
+.rowname{
+    
+    margin-inline-end: auto;
+}
+.t3{
+    width:100px;
+    
+}
+
+.searchbtn{
+ width:120px;   
+ border:none;
+ background-color: #f68215;
+}
+.searchbtn:hover{
+    background-color:  #ed7403;
+    color:white;
+}
+.coinstable{
+    margin-top: 50px;
+}
+.tablehead .rowname{
+    margin-bottom: 30px;
+}
+.tablehead{
+    margin-bottom: 10px;
+}
+.coinimg1{
+    width:70px;
+}
+.coinsrow:hover{
+ background-color: whitesmoke;
+}
+.page1{
+    margin-top: 150px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+       
+}
+.td1{
+color:black;
+
+}
+td:link{
+    color:black;
+}
+td:hover{
+    background-color: whitesmoke;
+}
