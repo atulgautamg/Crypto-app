@@ -19,7 +19,7 @@ import arrow1 from './arrow2.svg';
 import arrow2 from './downarrow1.svg';
 import axios from 'axios';
 import ContextApi, { Cryptostate } from './ContextApi';
-import Pagination from '@mui/material/Pagination';
+
 import {Link} from 'react-router-dom';
 const Coins4 = () => {
       const [coins,setcoins]=useState([]);

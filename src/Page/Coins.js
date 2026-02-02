@@ -3,7 +3,7 @@ import { CoinList } from './Api'
 import axios from 'axios';
 import ContextApi, { Cryptostate } from './ContextApi';
 import { Link, useNavigate } from 'react-router-dom';
-import Pagination from '@mui/material/Pagination';
+
 import "./Coins.css"
 const Coins = () => {
   const [coins,setcoins]=useState([]);
@@ -63,9 +63,6 @@ fetchcoins();
           </div>
          
       </div>
-      <div className='page1'>
-     <div className='page3'>  Page: </div> <div className='page2'> <Pagination style={{height:"100px",color:"white"} } color='primary'   count={coins.length/10} onChange={(_,value)=>{setpage(value);}}></Pagination>    
-     </div> </div>
   
     </div>
   )
