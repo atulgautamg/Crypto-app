@@ -101,8 +101,7 @@ const formattedUSD = new Intl.NumberFormat('en-US', {
       <div className='box11 box3'> 
         <h3>Make Your Crypto Search Easier</h3>
         <h6>Check your daily transaction report</h6>
-          </div>
-      <div className='box11 box4'> box4 </div>           
+          </div>           
    
       <div className='box11 box5'>
          {coins.filter((row)=>{return query.toLowerCase()===""? row: row.id.toLowerCase().includes(query) ||  row.symbol.toLowerCase().includes(query) }).slice((page-1)*10,(page-1)*10+10).map((row)=>(

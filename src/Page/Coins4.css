@@ -45,9 +45,10 @@
 .box3{
     grid-column-start: 2;
     grid-column-end:3;
-    width:800px;
+    width:1400px;
     height: 200px;
     margin-top: 30px;
+    
     background-image: url('./image2.jpg');
     border-radius: 30px;
 }
